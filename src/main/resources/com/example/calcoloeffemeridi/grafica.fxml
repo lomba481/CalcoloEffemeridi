@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="500.0" maxWidth="500.0" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calcoloeffemeridi.HelloController">
+    <children>
+        <ComboBox fx:id="cmbProvincia" layoutX="175.0" layoutY="204.0" prefWidth="150.0" promptText="Provincia" />
+        <TextField fx:id="txtAnno" layoutX="175.0" layoutY="139.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Anno" />
+        <Button fx:id="btnEsegui" layoutX="222.0" layoutY="274.0" mnemonicParsing="false" onAction="#onClickEsegui" text="Esporta" AnchorPane.bottomAnchor="201.0" AnchorPane.topAnchor="274.0" />
+    </children>
+</AnchorPane>
